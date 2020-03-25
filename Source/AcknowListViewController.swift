@@ -192,7 +192,7 @@ open class AcknowListViewController: UITableViewController {
         }
     }
 
-    class func defaultAcknowledgementsPlistPath() -> String? {
+    public class func defaultAcknowledgementsPlistPath() -> String? {
         guard let bundleName = bundleName() else {
             return nil
         }
